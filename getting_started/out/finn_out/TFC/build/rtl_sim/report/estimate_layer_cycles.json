@@ -1,0 +1,8 @@
+{
+  "Thresholding_Batch_0": 784,
+  "StreamingFCLayer_Batch_0": 7168,
+  "StreamingFCLayer_Batch_1": 4096,
+  "StreamingFCLayer_Batch_2": 4096,
+  "StreamingFCLayer_Batch_3": 640,
+  "LabelSelect_Batch_0": 10
+}

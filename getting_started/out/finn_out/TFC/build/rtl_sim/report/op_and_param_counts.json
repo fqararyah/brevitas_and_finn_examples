@@ -1,0 +1,32 @@
+{
+  "Thresholding_Batch_0": {
+    "param_threshold_8b": 784
+  },
+  "StreamingFCLayer_Batch_0": {
+    "op_mac_1bx1b": 50176,
+    "param_weight_1b": 50176,
+    "param_threshold_10b": 64
+  },
+  "StreamingFCLayer_Batch_1": {
+    "op_mac_1bx1b": 4096,
+    "param_weight_1b": 4096,
+    "param_threshold_7b": 64
+  },
+  "StreamingFCLayer_Batch_2": {
+    "op_mac_1bx1b": 4096,
+    "param_weight_1b": 4096,
+    "param_threshold_7b": 64
+  },
+  "StreamingFCLayer_Batch_3": {
+    "op_mac_1bx1b": 640,
+    "param_weight_1b": 640
+  },
+  "LabelSelect_Batch_0": {},
+  "total": {
+    "param_threshold_8b": 784.0,
+    "op_mac_1bx1b": 59008.0,
+    "param_weight_1b": 59008.0,
+    "param_threshold_10b": 64.0,
+    "param_threshold_7b": 128.0
+  }
+}

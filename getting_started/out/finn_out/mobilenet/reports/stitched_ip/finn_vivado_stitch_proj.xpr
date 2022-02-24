@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2021.2 (64-bit)              -->
+<!--                                                         -->
+<!-- Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.   -->
+
+<Project Version="7" Minor="56" Path="/tmp/finn_dev_fareed/vivado_stitch_proj_sxzwoo8h/finn_vivado_stitch_proj.xpr">
+  <DefaultLaunch Dir="$PRUNDIR"/>
+  <Configuration>
+    <Option Name="Id" Val="3591f9c1f71e43ecacb5334ee9bf7826"/>
+    <Option Name="Part" Val="xczu7ev-ffvc1156-2-e"/>
+    <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
+    <Option Name="CompiledLibDirXSim" Val=""/>
+    <Option Name="CompiledLibDirModelSim" Val="$PCACHEDIR/compile_simlib/modelsim"/>
+    <Option Name="CompiledLibDirQuesta" Val="$PCACHEDIR/compile_simlib/questa"/>
+    <Option Name="CompiledLibDirXcelium" Val="$PCACHEDIR/compile_simlib/xcelium"/>
+    <Option Name="CompiledLibDirVCS" Val="$PCACHEDIR/compile_simlib/vcs"/>
+    <Option Name="CompiledLibDirRiviera" Val="$PCACHEDIR/compile_simlib/riviera"/>
+    <Option Name="CompiledLibDirActivehdl" Val="$PCACHEDIR/compile_simlib/activehdl"/>
+    <Option Name="SimulatorInstallDirModelSim" Val=""/>
+    <Option Name="SimulatorInstallDirQuesta" Val=""/>
+    <Option Name="SimulatorInstallDirXcelium" Val=""/>
+    <Option Name="SimulatorInstallDirVCS" Val=""/>
+    <Option Name="SimulatorInstallDirRiviera" Val=""/>
+    <Option Name="SimulatorInstallDirActiveHdl" Val=""/>
+    <Option Name="SimulatorGccInstallDirModelSim" Val=""/>
+    <Option Name="SimulatorGccInstallDirQuesta" Val=""/>
+    <Option Name="SimulatorGccInstallDirXcelium" Val=""/>
+    <Option Name="SimulatorGccInstallDirVCS" Val=""/>
+    <Option Name="SimulatorGccInstallDirRiviera" Val=""/>
+    <Option Name="SimulatorGccInstallDirActiveHdl" Val=""/>
+    <Option Name="SimulatorVersionXsim" Val="2021.2"/>
+    <Option Name="SimulatorVersionModelSim" Val="2020.4"/>
+    <Option Name="SimulatorVersionQuesta" Val="2020.4"/>
+    <Option Name="SimulatorVersionXcelium" Val="20.09.006"/>
+    <Option Name="SimulatorVersionVCS" Val="R-2020.12"/>
+    <Option Name="SimulatorVersionRiviera" Val="2020.10"/>
+    <Option Name="SimulatorVersionActiveHdl" Val="12.0"/>
+    <Option Name="SimulatorGccVersionXsim" Val="6.2.0"/>
+    <Option Name="SimulatorGccVersionModelSim" Val="5.3.0"/>
+    <Option Name="SimulatorGccVersionQuesta" Val="5.3.0"/>
+    <Option Name="SimulatorGccVersionXcelium" Val="6.3"/>
+    <Option Name="SimulatorGccVersionVCS" Val="6.2.0"/>
+    <Option Name="SimulatorGccVersionRiviera" Val="6.2.0"/>
+    <Option Name="SimulatorGccVersionActiveHdl" Val="6.2.0"/>
+    <Option Name="BoardPart" Val=""/>
+    <Option Name="ActiveSimSet" Val="sim_1"/>
+    <Option Name="DefaultLib" Val="xil_defaultlib"/>
+    <Option Name="ProjectType" Val="Default"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../../../workspace/finn/finn-rtllib/memstream"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_0_tx50ncn8/project_StreamingFIFO_0/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_0_zribwytg/project_ConvolutionInputGenerator_0/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_Batch_0_ys3365y5/project_StreamingDataWidthConverter_Batch_0/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_2_sc3tqrs5/project_StreamingFIFO_2/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFCLayer_Batch_0_0g6upo0h/project_StreamingFCLayer_Batch_0/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_3_m2prrtfz/project_StreamingFIFO_3/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_FMPadding_Batch_0_r4ra9aa3/project_FMPadding_Batch_0/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_4_zgvg7yo3/project_StreamingFIFO_4/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_1_3g_gntf5/project_ConvolutionInputGenerator_1/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_Vector_Vector_Activate_Batch_0_480f0fgt/project_Vector_Vector_Activate_Batch_0/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_Batch_1_iursybk_/project_StreamingDataWidthConverter_Batch_1/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFCLayer_Batch_1_md9ohy35/project_StreamingFCLayer_Batch_1/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_8_4akbnl2i/project_StreamingFIFO_8/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_FMPadding_Batch_1_qka1pfw5/project_FMPadding_Batch_1/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_9_1m3b9qj8/project_StreamingFIFO_9/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_2_0muhh3rg/project_ConvolutionInputGenerator_2/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_Vector_Vector_Activate_Batch_1_dp3sb80y/project_Vector_Vector_Activate_Batch_1/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_Batch_2_38y3e5ac/project_StreamingDataWidthConverter_Batch_2/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_12_sdikd954/project_StreamingFIFO_12/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFCLayer_Batch_2_v9xxg9ua/project_StreamingFCLayer_Batch_2/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_13_nduq7ltp/project_StreamingFIFO_13/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_FMPadding_Batch_2_017jw66n/project_FMPadding_Batch_2/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_14_uefu71r_/project_StreamingFIFO_14/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_3_xi1ucoi3/project_ConvolutionInputGenerator_3/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_Vector_Vector_Activate_Batch_2_y7l17lxb/project_Vector_Vector_Activate_Batch_2/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_Batch_3_lvx0u0l0/project_StreamingDataWidthConverter_Batch_3/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_17_unq10o2k/project_StreamingFIFO_17/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFCLayer_Batch_3_kdpdques/project_StreamingFCLayer_Batch_3/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_18_cfsox9w4/project_StreamingFIFO_18/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_FMPadding_Batch_3_c4mmzx4v/project_FMPadding_Batch_3/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_19_zcxyx9ad/project_StreamingFIFO_19/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_4_64jb4u0i/project_ConvolutionInputGenerator_4/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_Vector_Vector_Activate_Batch_3_0w4m2u71/project_Vector_Vector_Activate_Batch_3/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_Batch_4_dgvhu8co/project_StreamingDataWidthConverter_Batch_4/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_22__34827o1/project_StreamingFIFO_22/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFCLayer_Batch_4_f4qulke3/project_StreamingFCLayer_Batch_4/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_23_7latk35y/project_StreamingFIFO_23/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_FMPadding_Batch_4_kdgsum1x/project_FMPadding_Batch_4/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_24_83waia5p/project_StreamingFIFO_24/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_5_un99t7e4/project_ConvolutionInputGenerator_5/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_Vector_Vector_Activate_Batch_4_p35a36f3/project_Vector_Vector_Activate_Batch_4/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_Batch_5_9fsc47s8/project_StreamingDataWidthConverter_Batch_5/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_27_3nm9zhfq/project_StreamingFIFO_27/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFCLayer_Batch_5_pw2_vra5/project_StreamingFCLayer_Batch_5/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_28_nqet9ify/project_StreamingFIFO_28/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_FMPadding_Batch_5_rk7pwyh6/project_FMPadding_Batch_5/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_29__fyrtxbg/project_StreamingFIFO_29/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_6_jowih750/project_ConvolutionInputGenerator_6/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_Vector_Vector_Activate_Batch_5_rnem60b9/project_Vector_Vector_Activate_Batch_5/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_Batch_6_kzib7xku/project_StreamingDataWidthConverter_Batch_6/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_32_moraekjv/project_StreamingFIFO_32/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFCLayer_Batch_6_wirp4fql/project_StreamingFCLayer_Batch_6/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_33_qe88d966/project_StreamingFIFO_33/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_FMPadding_Batch_6_bki39op9/project_FMPadding_Batch_6/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_34_p9ttqh27/project_StreamingFIFO_34/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_7_5la5m998/project_ConvolutionInputGenerator_7/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_Vector_Vector_Activate_Batch_6_y09ljz47/project_Vector_Vector_Activate_Batch_6/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_Batch_7_5dt9gblj/project_StreamingDataWidthConverter_Batch_7/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_37_jwwld6k0/project_StreamingFIFO_37/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFCLayer_Batch_7_96qaefh5/project_StreamingFCLayer_Batch_7/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_38_s5lo1poa/project_StreamingFIFO_38/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_FMPadding_Batch_7_5ub7filn/project_FMPadding_Batch_7/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_39_enirctzw/project_StreamingFIFO_39/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_8_dvciuj0f/project_ConvolutionInputGenerator_8/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_Vector_Vector_Activate_Batch_7_6i_ta20c/project_Vector_Vector_Activate_Batch_7/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_Batch_8_21cor9fb/project_StreamingDataWidthConverter_Batch_8/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_42_cqh2ouxa/project_StreamingFIFO_42/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFCLayer_Batch_8_ii4fm85m/project_StreamingFCLayer_Batch_8/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_43_piav4xfk/project_StreamingFIFO_43/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_FMPadding_Batch_8_eear8_lm/project_FMPadding_Batch_8/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_44_nq8isv0f/project_StreamingFIFO_44/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_9_4t2biqig/project_ConvolutionInputGenerator_9/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_Vector_Vector_Activate_Batch_8_u0hwx6u5/project_Vector_Vector_Activate_Batch_8/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_Batch_9_7lb0j5tk/project_StreamingDataWidthConverter_Batch_9/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_47_0q5h_4es/project_StreamingFIFO_47/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFCLayer_Batch_9_cp2p7pmr/project_StreamingFCLayer_Batch_9/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_48_yjvk2aab/project_StreamingFIFO_48/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_FMPadding_Batch_9_rkw0v18z/project_FMPadding_Batch_9/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_49_ja20uulk/project_StreamingFIFO_49/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_10_95em5epo/project_ConvolutionInputGenerator_10/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_Vector_Vector_Activate_Batch_9_rll4_02e/project_Vector_Vector_Activate_Batch_9/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_Batch_10_wq8amuli/project_StreamingDataWidthConverter_Batch_10/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_52_8o7g5rbh/project_StreamingFIFO_52/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFCLayer_Batch_10_z5xji8bm/project_StreamingFCLayer_Batch_10/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_53_cpyaxz1e/project_StreamingFIFO_53/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_FMPadding_Batch_10_0rjqizbf/project_FMPadding_Batch_10/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_54_9kl7rly4/project_StreamingFIFO_54/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_11_57jyei6z/project_ConvolutionInputGenerator_11/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_Vector_Vector_Activate_Batch_10__7bbnwb9/project_Vector_Vector_Activate_Batch_10/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_Batch_11_ls_8k92k/project_StreamingDataWidthConverter_Batch_11/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_57_17bu_qt8/project_StreamingFIFO_57/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFCLayer_Batch_11_f9agpggv/project_StreamingFCLayer_Batch_11/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_58_cf3x8zds/project_StreamingFIFO_58/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_FMPadding_Batch_11__n0mnxcm/project_FMPadding_Batch_11/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_59_bhvu0zp8/project_StreamingFIFO_59/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_12_3yhy3o21/project_ConvolutionInputGenerator_12/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_Vector_Vector_Activate_Batch_11_d8g7k_21/project_Vector_Vector_Activate_Batch_11/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_Batch_12__d8hnegy/project_StreamingDataWidthConverter_Batch_12/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_62_7suk4kh7/project_StreamingFIFO_62/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFCLayer_Batch_12_u_n5qfjr/project_StreamingFCLayer_Batch_12/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_63_lbdthr0h/project_StreamingFIFO_63/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_FMPadding_Batch_12_1213md5z/project_FMPadding_Batch_12/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_64_esouiu9d/project_StreamingFIFO_64/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_13_4mb88wxg/project_ConvolutionInputGenerator_13/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_Vector_Vector_Activate_Batch_12_p5zj4x08/project_Vector_Vector_Activate_Batch_12/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_Batch_13_vgzxq4lv/project_StreamingDataWidthConverter_Batch_13/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFIFO_67_mc16o7lo/project_StreamingFIFO_67/sol1/impl/verilog"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFCLayer_Batch_13_e_tymboy/project_StreamingFCLayer_Batch_13/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_14_oyr2qe6h/project_ConvolutionInputGenerator_14/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_Pool_Batch_0_e8weqnsc/project_Pool_Batch_0/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_StreamingFCLayer_Batch_14_48h_7ja6/project_StreamingFCLayer_Batch_14/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_ChannelwiseOp_Batch_0_yll0r_4f/project_ChannelwiseOp_Batch_0/sol1/impl/ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../code_gen_ipgen_LabelSelect_Batch_0_z_6o0yjc/project_LabelSelect_Batch_0/sol1/impl/ip"/>
+    <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>
+    <Option Name="IPDefaultOutputPath" Val="$PGENDIR/sources_1"/>
+    <Option Name="IPCachePermission" Val="read"/>
+    <Option Name="IPCachePermission" Val="write"/>
+    <Option Name="EnableCoreContainer" Val="FALSE"/>
+    <Option Name="CreateRefXciForCoreContainers" Val="FALSE"/>
+    <Option Name="IPUserFilesDir" Val="$PIPUSERFILESDIR"/>
+    <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
+    <Option Name="EnableBDX" Val="FALSE"/>
+    <Option Name="WTXSimLaunchSim" Val="0"/>
+    <Option Name="WTModelSimLaunchSim" Val="0"/>
+    <Option Name="WTQuestaLaunchSim" Val="0"/>
+    <Option Name="WTIesLaunchSim" Val="0"/>
+    <Option Name="WTVcsLaunchSim" Val="0"/>
+    <Option Name="WTRivieraLaunchSim" Val="0"/>
+    <Option Name="WTActivehdlLaunchSim" Val="0"/>
+    <Option Name="WTXSimExportSim" Val="0"/>
+    <Option Name="WTModelSimExportSim" Val="0"/>
+    <Option Name="WTQuestaExportSim" Val="0"/>
+    <Option Name="WTIesExportSim" Val="0"/>
+    <Option Name="WTVcsExportSim" Val="0"/>
+    <Option Name="WTRivieraExportSim" Val="0"/>
+    <Option Name="WTActivehdlExportSim" Val="0"/>
+    <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
+    <Option Name="XSimRadix" Val="hex"/>
+    <Option Name="XSimTimeUnit" Val="ns"/>
+    <Option Name="XSimArrayDisplayLimit" Val="1024"/>
+    <Option Name="XSimTraceLimit" Val="65536"/>
+    <Option Name="SimTypes" Val="rtl"/>
+    <Option Name="SimTypes" Val="bfm"/>
+    <Option Name="SimTypes" Val="tlm"/>
+    <Option Name="SimTypes" Val="tlm_dpi"/>
+    <Option Name="MEMEnableMemoryMapGeneration" Val="TRUE"/>
+    <Option Name="DcpsUptoDate" Val="TRUE"/>
+    <Option Name="ClassicSocBoot" Val="FALSE"/>
+  </Configuration>
+  <FileSets Version="1" Minor="31">
+    <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/bd/finn_design/finn_design.bd">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PGENDIR/sources_1/bd/finn_design/hdl/finn_design_wrapper.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+      <Filter Type="Constrs"/>
+      <Config>
+        <Option Name="ConstrsType" Val="XDC"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1" RelGenDir="$PGENDIR/sim_1">
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+        <Option Name="TransportPathDelay" Val="0"/>
+        <Option Name="TransportIntDelay" Val="0"/>
+        <Option Name="SelectedSimModel" Val="rtl"/>
+        <Option Name="PamDesignTestbench" Val=""/>
+        <Option Name="PamDutBypassFile" Val="xil_dut_bypass"/>
+        <Option Name="PamSignalDriverFile" Val="xil_bypass_driver"/>
+        <Option Name="PamPseudoTop" Val="pseudo_tb"/>
+        <Option Name="SrcSet" Val="sources_1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="utils_1" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+      <Filter Type="Utils"/>
+      <Config>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+      </Config>
+    </FileSet>
+  </FileSets>
+  <Simulators>
+    <Simulator Name="XSim">
+      <Option Name="Description" Val="Vivado Simulator"/>
+      <Option Name="CompiledLib" Val="0"/>
+    </Simulator>
+    <Simulator Name="ModelSim">
+      <Option Name="Description" Val="ModelSim Simulator"/>
+    </Simulator>
+    <Simulator Name="Questa">
+      <Option Name="Description" Val="Questa Advanced Simulator"/>
+    </Simulator>
+    <Simulator Name="Xcelium">
+      <Option Name="Description" Val="Xcelium Parallel Simulator"/>
+    </Simulator>
+    <Simulator Name="VCS">
+      <Option Name="Description" Val="Verilog Compiler Simulator (VCS)"/>
+    </Simulator>
+    <Simulator Name="Riviera">
+      <Option Name="Description" Val="Riviera-PRO Simulator"/>
+    </Simulator>
+  </Simulators>
+  <Runs Version="1" Minor="15">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xczu7ev-ffvc1156-2-e" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="true" WriteIncrSynthDcp="false" State="current" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2021">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2021"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xczu7ev-ffvc1156-2-e" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" SynthRun="synth_1" IncludeInArchive="true" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2021">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2021"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+  </Runs>
+  <Board/>
+  <DashboardSummary Version="1" Minor="0">
+    <Dashboards>
+      <Dashboard Name="default_dashboard">
+        <Gadgets>
+          <Gadget Name="drc_1" Type="drc" Version="1" Row="2" Column="0">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_route_report_drc_0 "/>
+          </Gadget>
+          <Gadget Name="methodology_1" Type="methodology" Version="1" Row="2" Column="1">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_route_report_methodology_0 "/>
+          </Gadget>
+          <Gadget Name="power_1" Type="power" Version="1" Row="1" Column="0">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_route_report_power_0 "/>
+          </Gadget>
+          <Gadget Name="timing_1" Type="timing" Version="1" Row="0" Column="1">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_route_report_timing_summary_0 "/>
+          </Gadget>
+          <Gadget Name="utilization_1" Type="utilization" Version="1" Row="0" Column="0">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="synth_1#synth_1_synth_report_utilization_0 "/>
+            <GadgetParam Name="RUN.STEP" Type="string" Value="synth_design"/>
+            <GadgetParam Name="RUN.TYPE" Type="string" Value="synthesis"/>
+          </Gadget>
+          <Gadget Name="utilization_2" Type="utilization" Version="1" Row="1" Column="1">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_place_report_utilization_0 "/>
+          </Gadget>
+        </Gadgets>
+      </Dashboard>
+      <CurrentDashboard>default_dashboard</CurrentDashboard>
+    </Dashboards>
+  </DashboardSummary>
+</Project>

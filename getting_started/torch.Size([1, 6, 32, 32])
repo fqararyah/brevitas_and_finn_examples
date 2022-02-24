@@ -1,0 +1,21 @@
+torch.Size([1, 6, 32, 32])
+torch.Size([1, 6, 16, 16])
+torch.Size([1, 16, 16, 16])
+torch.Size([1, 16, 8, 8])
+torch.Size([1, 1024])
+
+
+
+torch.Size([1, 6, 28, 28])
+torch.Size([1, 6, 14, 14])
+torch.Size([1, 16, 10, 10])
+torch.Size([1, 16, 5, 5])
+torch.Size([1, 400])
+
+
+torch.Size([1, 6, 24, 24])
+torch.Size([1, 6, 12, 12])
+torch.Size([1, 16, 4, 4])
+torch.Size([1, 16, 2, 2])
+torch.Size([1, 64])
+

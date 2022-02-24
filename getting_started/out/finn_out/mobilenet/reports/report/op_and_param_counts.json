@@ -1,0 +1,186 @@
+{
+  "ConvolutionInputGenerator_0": {},
+  "StreamingFCLayer_Batch_0": {
+    "op_mac_8bx8b": 10645344,
+    "param_weight_8b": 864,
+    "param_threshold_21b": 32
+  },
+  "FMPadding_Batch_0": {},
+  "ConvolutionInputGenerator_1": {},
+  "Vector_Vector_Activate_Batch_0": {
+    "op_mac_4bx4b": 3548448,
+    "param_weight_4b": 288,
+    "param_threshold_11b": 32
+  },
+  "StreamingFCLayer_Batch_1": {
+    "op_mac_4bx4b": 25233408,
+    "param_weight_4b": 2048,
+    "param_threshold_13b": 64
+  },
+  "FMPadding_Batch_1": {},
+  "ConvolutionInputGenerator_2": {},
+  "Vector_Vector_Activate_Batch_1": {
+    "op_mac_4bx4b": 1806336,
+    "param_weight_4b": 576,
+    "param_threshold_11b": 64
+  },
+  "StreamingFCLayer_Batch_2": {
+    "op_mac_4bx4b": 25690112,
+    "param_weight_4b": 8192,
+    "param_threshold_14b": 128
+  },
+  "FMPadding_Batch_2": {},
+  "ConvolutionInputGenerator_3": {},
+  "Vector_Vector_Activate_Batch_2": {
+    "op_mac_4bx4b": 3612672,
+    "param_weight_4b": 1152,
+    "param_threshold_11b": 128
+  },
+  "StreamingFCLayer_Batch_3": {
+    "op_mac_4bx4b": 51380224,
+    "param_weight_4b": 16384,
+    "param_threshold_15b": 128
+  },
+  "FMPadding_Batch_3": {},
+  "ConvolutionInputGenerator_4": {},
+  "Vector_Vector_Activate_Batch_3": {
+    "op_mac_4bx4b": 903168,
+    "param_weight_4b": 1152,
+    "param_threshold_11b": 128
+  },
+  "StreamingFCLayer_Batch_4": {
+    "op_mac_4bx4b": 25690112,
+    "param_weight_4b": 32768,
+    "param_threshold_15b": 256
+  },
+  "FMPadding_Batch_4": {},
+  "ConvolutionInputGenerator_5": {},
+  "Vector_Vector_Activate_Batch_4": {
+    "op_mac_4bx4b": 1806336,
+    "param_weight_4b": 2304,
+    "param_threshold_11b": 256
+  },
+  "StreamingFCLayer_Batch_5": {
+    "op_mac_4bx4b": 51380224,
+    "param_weight_4b": 65536,
+    "param_threshold_16b": 256
+  },
+  "FMPadding_Batch_5": {},
+  "ConvolutionInputGenerator_6": {},
+  "Vector_Vector_Activate_Batch_5": {
+    "op_mac_4bx4b": 451584,
+    "param_weight_4b": 2304,
+    "param_threshold_11b": 256
+  },
+  "StreamingFCLayer_Batch_6": {
+    "op_mac_4bx4b": 25690112,
+    "param_weight_4b": 131072,
+    "param_threshold_16b": 512
+  },
+  "FMPadding_Batch_6": {},
+  "ConvolutionInputGenerator_7": {},
+  "Vector_Vector_Activate_Batch_6": {
+    "op_mac_4bx4b": 903168,
+    "param_weight_4b": 4608,
+    "param_threshold_11b": 512
+  },
+  "StreamingFCLayer_Batch_7": {
+    "op_mac_4bx4b": 51380224,
+    "param_weight_4b": 262144,
+    "param_threshold_17b": 512
+  },
+  "FMPadding_Batch_7": {},
+  "ConvolutionInputGenerator_8": {},
+  "Vector_Vector_Activate_Batch_7": {
+    "op_mac_4bx4b": 903168,
+    "param_weight_4b": 4608,
+    "param_threshold_11b": 512
+  },
+  "StreamingFCLayer_Batch_8": {
+    "op_mac_4bx4b": 51380224,
+    "param_weight_4b": 262144,
+    "param_threshold_17b": 512
+  },
+  "FMPadding_Batch_8": {},
+  "ConvolutionInputGenerator_9": {},
+  "Vector_Vector_Activate_Batch_8": {
+    "op_mac_4bx4b": 903168,
+    "param_weight_4b": 4608,
+    "param_threshold_11b": 512
+  },
+  "StreamingFCLayer_Batch_9": {
+    "op_mac_4bx4b": 51380224,
+    "param_weight_4b": 262144,
+    "param_threshold_17b": 512
+  },
+  "FMPadding_Batch_9": {},
+  "ConvolutionInputGenerator_10": {},
+  "Vector_Vector_Activate_Batch_9": {
+    "op_mac_4bx4b": 903168,
+    "param_weight_4b": 4608,
+    "param_threshold_11b": 512
+  },
+  "StreamingFCLayer_Batch_10": {
+    "op_mac_4bx4b": 51380224,
+    "param_weight_4b": 262144,
+    "param_threshold_17b": 512
+  },
+  "FMPadding_Batch_10": {},
+  "ConvolutionInputGenerator_11": {},
+  "Vector_Vector_Activate_Batch_10": {
+    "op_mac_4bx4b": 903168,
+    "param_weight_4b": 4608,
+    "param_threshold_11b": 512
+  },
+  "StreamingFCLayer_Batch_11": {
+    "op_mac_4bx4b": 51380224,
+    "param_weight_4b": 262144,
+    "param_threshold_17b": 512
+  },
+  "FMPadding_Batch_11": {},
+  "ConvolutionInputGenerator_12": {},
+  "Vector_Vector_Activate_Batch_11": {
+    "op_mac_4bx4b": 225792,
+    "param_weight_4b": 4608,
+    "param_threshold_11b": 512
+  },
+  "StreamingFCLayer_Batch_12": {
+    "op_mac_4bx4b": 25690112,
+    "param_weight_4b": 524288,
+    "param_threshold_17b": 1024
+  },
+  "FMPadding_Batch_12": {},
+  "ConvolutionInputGenerator_13": {},
+  "Vector_Vector_Activate_Batch_12": {
+    "op_mac_4bx4b": 451584,
+    "param_weight_4b": 9216,
+    "param_threshold_11b": 1024
+  },
+  "StreamingFCLayer_Batch_13": {
+    "op_mac_4bx4b": 51380224,
+    "param_weight_4b": 1048576,
+    "param_threshold_18b": 1024
+  },
+  "ConvolutionInputGenerator_14": {},
+  "Pool_Batch_0": {},
+  "StreamingFCLayer_Batch_14": {
+    "op_mac_4bx4b": 1024000,
+    "param_weight_4b": 1024000
+  },
+  "ChannelwiseOp_Batch_0": {},
+  "LabelSelect_Batch_0": {},
+  "total": {
+    "op_mac_8bx8b": 10645344.0,
+    "param_weight_8b": 864.0,
+    "param_threshold_21b": 32.0,
+    "op_mac_4bx4b": 557381408.0,
+    "param_weight_4b": 4208224.0,
+    "param_threshold_11b": 4960.0,
+    "param_threshold_13b": 64.0,
+    "param_threshold_14b": 128.0,
+    "param_threshold_15b": 384.0,
+    "param_threshold_16b": 768.0,
+    "param_threshold_17b": 3584.0,
+    "param_threshold_18b": 1024.0
+  }
+}

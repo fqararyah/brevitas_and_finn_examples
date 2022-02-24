@@ -1,0 +1,10 @@
+{
+  "cycles": 150671,
+  "runtime[ms]": 1.50671,
+  "throughput[images/s]": 663.6977255078947,
+  "DRAM_in_bandwidth[Mb/s]": 2.0388794127602523,
+  "DRAM_out_bandwidth[Mb/s]": 0.0006636977255078946,
+  "fclk[mhz]": 100.0,
+  "N": 1,
+  "latency_cycles": 150671
+}
