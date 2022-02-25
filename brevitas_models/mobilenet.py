@@ -39,6 +39,11 @@ from common import CommonIntWeightPerChannelQuant, CommonIntWeightPerTensorQuant
 import configparser
 import numpy as np
 
+from brevitas_examples.imagenet_classification.models import model_with_cfg
+
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
+
 FIRST_LAYER_BIT_WIDTH = 8
 
 
@@ -203,7 +208,11 @@ def save_weights(model, file_path = save_path):
     indx = 0
     for layer_name, layer in model.named_modules():
         if isinstance(layer, nn.Conv2d): 
-            weights_npy = next(layer.parameters()).detach().numpy()
+            #print(layer.quant_weight().zero_point.item())
+            #print(layer.quant_weight().scale.size())
+            weights_npy = layer.quant_weight().value
+            scale = layer.quant_weight().scale
+            zero_point = layer.quant_weight().zero_point.item()
             with open(file_path + '/_weights' + layer_name + '.txt', 'w') as f:
                 weights_shape = weights_npy.shape
                 print(weights_shape)
@@ -211,7 +220,7 @@ def save_weights(model, file_path = save_path):
                     for i in range(weights_shape[1]):
                         for j in range(weights_shape[2]):
                             for k in range(weights_shape[3]):
-                                f.write(str(weights_npy[filter][i][j][k]) + ' ')
+                                f.write(str(weights_npy[filter][i][j][k].item() / scale[filter].item() + zero_point) + ' ')
                             f.write('\n')
                         f.write('\n')
         
@@ -238,7 +247,13 @@ def quant_mobilenet_v1(cfg, save_activations = False):
 config_file = '/Users/qarayah/WD/brevitas_and_finn_examples/brevitas_models/cfg/quant_mobilenet_v1_4b.ini'
 config = configparser.ConfigParser()
 config.read(config_file)
-model = quant_mobilenet_v1(config, save_activations = True)
+#model = quant_mobilenet_v1(config, save_activations = True)
+
+model, cfg = model_with_cfg('/Users/qarayah/WD/brevitas_and_finn_examples/brevitas_models/cfg/quant_mobilenet_v1_4b',\
+     True)
+
+#model.load_state_dict(torch.load('/Users/qarayah/WD/models/finn_brevitas/mobilenet/quant_mobilenet_v1_4b.pth', \
+   # map_location=torch.device('cpu')))
 
 img_np = np.random.randint(low= 0, high = 256, size=(3, 224, 224))
 np.save(save_path + "/_mobilenet_input.npy", img_np)
