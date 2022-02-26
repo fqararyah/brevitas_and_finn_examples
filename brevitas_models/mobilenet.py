@@ -220,7 +220,7 @@ def save_weights(model, file_path = save_path):
                     for i in range(weights_shape[1]):
                         for j in range(weights_shape[2]):
                             for k in range(weights_shape[3]):
-                                f.write(str(weights_npy[filter][i][j][k].item() / scale[filter].item() + zero_point) + ' ')
+                                f.write(str( round( weights_npy[filter][i][j][k].item() / scale[filter].item() + zero_point) ) + ' ')
                             f.write('\n')
                         f.write('\n')
         
@@ -260,5 +260,7 @@ np.save(save_path + "/_mobilenet_input.npy", img_np)
 img_np = img_np.reshape(1, 3, 224, 224)
 img_torch = torch.from_numpy(img_np).float()
 
+model.eval()
 save_weights(model)
-model.forward(img_torch)
+#model.forward(img_torch)
+
