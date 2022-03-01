@@ -247,13 +247,16 @@ def quant_mobilenet_v1(cfg, save_activations = False):
 config_file = '/Users/qarayah/WD/brevitas_and_finn_examples/brevitas_models/cfg/quant_mobilenet_v1_4b.ini'
 config = configparser.ConfigParser()
 config.read(config_file)
+#option1
 #model = quant_mobilenet_v1(config, save_activations = True)
 
+#option2
 model, cfg = model_with_cfg('/Users/qarayah/WD/brevitas_and_finn_examples/brevitas_models/cfg/quant_mobilenet_v1_4b',\
      True)
 
-#model.load_state_dict(torch.load('/Users/qarayah/WD/models/finn_brevitas/mobilenet/quant_mobilenet_v1_4b.pth', \
-   # map_location=torch.device('cpu')))
+#option3
+#from finn.util.test import get_test_model
+#model = get_test_model(netname = "mobilenet", wbits = 4, abits = 4, pretrained = True)
 
 img_np = np.random.randint(low= 0, high = 256, size=(3, 224, 224))
 np.save(save_path + "/_mobilenet_input.npy", img_np)
