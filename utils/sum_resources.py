@@ -15,7 +15,11 @@ def sum_resources(file_name):
         json.dump(overall_resources, fp)
     f.close()
 
-file_path = '/home/fareed/wd/my_repos/brevitas_and_finn/getting_started/out/finn_out/mobilenet/reports/report/'
+file_path = '/home/fareed/wd/finn2/finn/my_prjects/brevitas_and_finn/getting_started/out/finn_out/mobilenet_zcu_102_96_fps_5_ns/reports/report/'
 file_name = 'estimate_layer_resources_hls.json'
+
+sum_resources(file_path + file_name)
+
+file_path = '/home/fareed/wd/finn2/finn/my_prjects/brevitas_and_finn/getting_started/out/finn_out/mobilenet_zcu_102_192_fps_5_ns/reports/report/'
 
 sum_resources(file_path + file_name)

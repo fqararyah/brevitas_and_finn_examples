@@ -187,7 +187,7 @@ class MobileNet(nn.Module):
         return out
 
 layer_rank = 0
-save_path = '/Users/qarayah/WD/models/weights_activations/brevitas/mobilenetv1'
+save_path = '/home/fareed/wd/models/weights_activations/brevitas/mobilenetv1'
 def save_activations(activations , layer_type, file_path = save_path):
     global layer_rank 
     with open(file_path + '/' + layer_type + '_' + str(layer_rank) + '.txt', 'w') as f:
@@ -244,14 +244,14 @@ def quant_mobilenet_v1(cfg, save_activations = False):
 
     return net
 
-config_file = '/Users/qarayah/WD/brevitas_and_finn_examples/brevitas_models/cfg/quant_mobilenet_v1_4b.ini'
+config_file = '/home/fareed/wd/my_repos/brevitas_and_finn/brevitas_models/cfg/quant_mobilenet_v1_4b.ini'
 config = configparser.ConfigParser()
 config.read(config_file)
 #option1
 #model = quant_mobilenet_v1(config, save_activations = True)
 
 #option2
-model, cfg = model_with_cfg('/Users/qarayah/WD/brevitas_and_finn_examples/brevitas_models/cfg/quant_mobilenet_v1_4b',\
+model, cfg = model_with_cfg('/home/fareed/wd/my_repos/brevitas_and_finn/brevitas_models/cfg/quant_mobilenet_v1_4b',\
      True)
 
 #option3
