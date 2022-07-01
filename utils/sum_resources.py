@@ -5,13 +5,11 @@ def sum_resources(file_name):
     f = open(file_name)
     overall_resources = {}
     data = json.load(f)
-    print(data['ConvolutionInputGenerator_0']['LUT'])
     for _, dict in data.items():
         for resource, consumption in dict.items():
             if resource not in overall_resources:
                 overall_resources[resource] = 0
             overall_resources[resource] += int(consumption)
-    print(overall_resources)
     with open(file_path + 'overall_resources.json', 'w') as fp:
         json.dump(overall_resources, fp)
     f.close()
@@ -50,9 +48,49 @@ def get_iddleness_dict(layers_cycles, layers_resources, overall_resources):
 
     for layer_name, cycles in layers_cycles.items():
         iddleness_percentage = (max_cycles - cycles) / max_cycles
-        for i in range(int(iddleness_percentage * 100 + 1)):
+        for i in range(int(iddleness_percentage * 100)):
             iddleness_dict[i] += 100 * int(layers_resources[layer_name]['LUT']) / overall_resources['LUT']
 
+    return iddleness_dict
+
+def fibha_iddleness_v1():
+    all_pipe_iddle = 27 #%
+    iddleness_dict = {}
+    pipe_iddleness_dict = {0: 0.17, 1:0.071, 2: 0.14, 3:0.46,4:0.54,5:0,6:0.14}
+    resource_dict = {0: 54, 1:18, 2: 128, 3:9,4:128,5:18,6:256}
+    sum_pipe_resources = 611
+    over_all_resources = 4096
+    
+    for i in range(all_pipe_iddle):
+        iddleness_dict[i] = 100 * sum_pipe_resources / over_all_resources
+    
+    for i in range(all_pipe_iddle, 100):
+        for key, val in pipe_iddleness_dict.items():
+            if val >= (i - all_pipe_iddle) / 100:
+                if i not in iddleness_dict:
+                    iddleness_dict[i] = 0
+                iddleness_dict[i] += 100 * resource_dict[key] / over_all_resources
+    
+    return iddleness_dict
+
+def fibha_iddleness_v1_0_5():
+    all_pipe_iddle = 41 #%
+    iddleness_dict = {}
+    pipe_iddleness_dict = {0: 0.17, 1:0.071, 2: 0.14, 3:0.46,4:0.54,5:0,6:0.14}
+    resource_dict = {0: 54*2, 1:18, 2: 128, 3:9,4:128,5:18,6:256}
+    sum_pipe_resources = 611 + 54
+    over_all_resources = 4096
+    
+    for i in range(all_pipe_iddle):
+        iddleness_dict[i] = 100 * sum_pipe_resources / over_all_resources
+    
+    for i in range(all_pipe_iddle, 100):
+        for key, val in pipe_iddleness_dict.items():
+            if val >= (i - all_pipe_iddle) / 100:
+                if i not in iddleness_dict:
+                    iddleness_dict[i] = 0
+                iddleness_dict[i] += 100 * resource_dict[key] / over_all_resources
+    
     return iddleness_dict
 
 fig, ax1 = plt.subplots()
@@ -84,11 +122,14 @@ overall_cycles = get_overall_cycles(file_name)
 
 iddleness_dict = get_iddleness_dict(layers_cycles, layers_resources, overall_resources)
 
-print('weighted imbalance: ', iddleness_dict)
- 
-ax1.plot( list(iddleness_dict.keys()), list(iddleness_dict.values()), label= 'MobileNetV1')
-ax1.scatter(list(iddleness_dict.keys()), list(iddleness_dict.values()) )
+fibha_iddleness = fibha_iddleness_v1()
 
+ 
+ax1.plot( list(iddleness_dict.keys()), list(iddleness_dict.values()), label= 'FINN_V1')
+#ax1.scatter(list(iddleness_dict.keys()), list(iddleness_dict.values()) )
+
+ax1.plot( list(fibha_iddleness.keys()), list(fibha_iddleness.values()), label= 'FiBHA_V1')
+#ax1.scatter(list(fibha_iddleness.keys()), list(fibha_iddleness.values()) )
 ##############################################################################3
 
 file_path = '/home/fareed/wd/finn2/finn/my_prjects/brevitas_and_finn/getting_started/out/finn_out/mobilenet_zcu_102_440_fps_5_ns_0_5/reports/report/'
@@ -115,11 +156,14 @@ file_name = '/home/fareed/wd/finn2/finn/my_prjects/brevitas_and_finn/getting_sta
 overall_cycles = get_overall_cycles(file_name)
 
 iddleness_dict = get_iddleness_dict(layers_cycles, layers_resources, overall_resources)
-
-print('weighted imbalance: ', iddleness_dict)
+fibha_iddleness_0_5 = fibha_iddleness_v1_0_5()
  
-ax1.plot( list(iddleness_dict.keys()), list(iddleness_dict.values()), label= 'MobileNetV1_0.5' )
-ax1.scatter(list(iddleness_dict.keys()), list(iddleness_dict.values()) )
+ax1.plot( list(iddleness_dict.keys()), list(iddleness_dict.values()), label= 'FINN_V1_0.5' )
+ax1.plot( list(fibha_iddleness_0_5.keys()), list(fibha_iddleness_0_5.values()), label= 'FiBHA_V1_0.5')
+
+ax1.grid(axis='y', linestyle='-')
+ax1.set_axisbelow(True)
+#ax1.scatter(list(iddleness_dict.keys()), list(iddleness_dict.values()) )
 
 plt.xlabel('Time')
 ax1.set_xlabel('Time')
@@ -149,6 +193,7 @@ x_coordinates_0 = [i for i in range(len(on_x))]
 x_coordinates_1 = [i - width[i] / 2 for i in range(len(on_x))]
 x_coordinates_2 = [i + width[i] / 2 for i in range(len(on_x))]
 
+print(finn_resource_utilization)
 on_y_1 = finn_resource_utilization
 on_y_2 = fibha_resource_utilization
 
